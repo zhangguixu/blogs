@@ -1,8 +1,10 @@
 ---
 title: Hello World
 date: 2016-11-27 17:09:28
-tags:
+categories:
     - 思考总结
+tags:
+    - blogs
 ---
 
 这是新环境下的第一篇博客，总结一下之前写过的东西和自己的一个想法，重新开始！
