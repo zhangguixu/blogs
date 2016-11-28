@@ -44,3 +44,11 @@ hexo server -s
 在浏览器打开`localhost:4000`，即可看到效果。
 
 *如果一直打不开，使用-p换一个端口，默认的4000端口在windows下可能被占用了*
+
+目前只能在linux下部署
+
+```shell
+hexo deploy
+```
+
+估计是插件`hexo-deloyer-git`有问题
