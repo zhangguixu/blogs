@@ -52,3 +52,13 @@ hexo deploy
 ```
 
 估计是插件`hexo-deloyer-git`有问题
+
+## 第三方服务
+
+网站分析
+
+[腾讯分析](http://v2.ta.qq.com/analysis/index)
+
+评论
+
+[多说](http://dev.duoshuo.com/)
