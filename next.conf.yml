@@ -157,7 +157,7 @@ toc:
   enable: true
 
   # Automatically add list number to toc.
-  number: true
+  number: false
 
 
 # Creative Commons 4.0 International License.
@@ -258,10 +258,10 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidbaidu_analytics:
+#baidu_analytics:
 
 # Duoshuo ShortName
-duoshuo_shortname:zhangguixu
+duoshuo_shortname: zhangguixu
 
 # Disqus
 #disqus_shortname:
@@ -305,8 +305,8 @@ duoshuo_shortname:zhangguixu
 duoshuo_info:
   ua_enable: true
   admin_enable: false
-  user_id: 0
-  #admin_nickname: Author
+  user_id: 6357877092683613000
+  admin_nickname: Admin
 
 
 # Facebook SDK Support.
@@ -355,7 +355,7 @@ busuanzi_count:
 
 
 # Tencent analytics ID
-tencent_analytics:59687072
+tencent_analytics: 59687072
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO

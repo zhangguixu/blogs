@@ -7,7 +7,11 @@ tags:
     - thunk
 ---
 
-### 诞生背景
+通过学习thunk的含义，我们来实现一个简单的`thunkify`函数库，并且通过测试代码，来改善我们的代码，是我们能够对这个函数库有更加深刻的理解。
+
+<!-- more -->
+
+### 1. 诞生背景
 
 Thunk函数的诞生是源于一个编译器设计的问题：`求值策略`，即函数的参数到底应该何时求值。
 
@@ -26,7 +30,7 @@ f(x + 5);
 * 传值调用(call by value)，即在进入函数体之间，先计算x+5的值，再将这个值（6）传入函数f，例如c语言，这种做法的好处是实现比较简单，但是有可能会造成性能损失。
 * 传名调用(call by name)，即直接将表达式(x+5)传入函数体，只在用到它的时候求值。
 
-### Thunk函数的含义
+### 2. Thunk函数的含义
 
 编译器的`传名调用`实现，往往就是将参数放到一个临时函数之中，再将这个临时函数转入函数体，这个临时函数就叫做`Thunk函数`。
 
@@ -51,7 +55,7 @@ function f(thunk) {
 
 
 
-### javascript中的Thunk函数
+### 3. javascript中的Thunk函数
 
 我们都知道Javascript是传值调用的，那么js中的Thunk函数又是怎么回事？
 
@@ -121,7 +125,7 @@ readFileThunk('test.txt', 'utf-8')( (err, data) => {
 
 ![thunk-01](/uploads/thunk-01.png)
 
-### 打造thunkify模块
+### 4. 打造thunkify模块
 
 要写出一个健壮的`thunkify`函数，需要考虑的各种情况，而我们通过tj大神写的[thunkify模块](https://github.com/tj/node-thunkify/blob/master/test/index.js)的测试代码，来看看我们自己的`thunkify`还存在哪些不足，一步步来优化。
 
@@ -232,7 +236,7 @@ var thunkify = function (fn) {
 
 到这里，我们通过了所有的测试，完成了一个`健壮`的`thunkify`模块。
 
-### 来源
+### 5. 来源
 
 1. [Thunk-阮一峰](http://www.ruanyifeng.com/blog/2015/05/thunk.html)
 2. [thunkify-tj](https://github.com/tj/node-thunkify)
