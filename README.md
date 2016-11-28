@@ -62,3 +62,9 @@ hexo deploy
 评论
 
 [多说](http://dev.duoshuo.com/)
+
+## 面试题页面模板
+
+```shell
+hexo new interview 'post'
+```
