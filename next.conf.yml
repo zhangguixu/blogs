@@ -184,11 +184,22 @@ sidebar:
 
 
 # Blogrolls
-#links_title: Links
-#links_layout: block
+links_title: 常用网站
+links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com/
+links:
+  segmentfault : https://segmentfault.com/
+  掘金 : http://gold.xitu.io/welcome
+  轩枫阁 : http://www.xuanfengge.com/
+  白色橡树 : http://www.cnblogs.com/PeunZhang/
+  阮一峰 : http://www.ruanyifeng.com/blog/
+  颜海镜 : http://yanhaijing.com/?url_type=39&object_type=webpage&pos=1
+  廖雪峰 : http://www.liaoxuefeng.com/
+  穆乙 : http://www.cnblogs.com/pigtail/
+  Alloy Team : http://www.alloyteam.com/
+  最牛前端收藏夹 : http://f2er.club/
+  前端开发指南 : https://github.com/icepy/Front-End-Develop-Guide
+  jstips : http://www.jstips.co/zh_CN/
 
 
 # ---------------------------------------------------------------
