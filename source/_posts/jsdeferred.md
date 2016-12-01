@@ -3,6 +3,7 @@ title: 异步编程-jsDeffered库解析
 date: 2016-11-28 14:04:45
 categories :
     - javascript
+    - library
 tags:
     - jsDeffered
     - 异步编程

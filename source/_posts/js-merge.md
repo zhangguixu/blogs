@@ -3,8 +3,8 @@ title: 数组合并
 date: 2016-11-29 11:18:04
 categories:
     - javascript
+    - array
 tags:
-    - 数组
     - 算法
 ---
 

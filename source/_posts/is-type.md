@@ -3,8 +3,9 @@ title: 数据类型检测
 date: 2016-11-30 14:21:40
 categories:
     - javascript
-tags:
     - 数据类型
+tags:
+    - 类型检测
 ---
 
 在js中提供两种检测类型的方法，但是它们并不总是靠谱。

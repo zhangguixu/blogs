@@ -3,8 +3,8 @@ title: 数组去重
 date: 2016-11-29 11:21:33
 categories:
     - javascript
+    - array
 tags:
-    - 数组
     - 算法
 ---
 

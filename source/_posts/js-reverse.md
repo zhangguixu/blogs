@@ -3,8 +3,8 @@ title: 数组反转
 date: 2016-11-29 11:20:09
 categories:
     - javascript
+    - array
 tags:
-    - 数组
     - 算法
 ---
 

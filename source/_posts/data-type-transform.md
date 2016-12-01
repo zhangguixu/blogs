@@ -3,8 +3,8 @@ title: 数据类型转换
 date: 2016-11-30 14:18:40
 categories:
     - javascript
-tags:
     - 数据类型
+tags:
 ---
 
 在javascript中，数据类型转换是很常见的，尤其是隐式的数据类型转换。

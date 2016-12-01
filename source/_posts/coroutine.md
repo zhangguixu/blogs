@@ -3,9 +3,8 @@ title: 协程
 date: 2016-11-29 10:55:08
 categories:
     - javascript
-tags:
     - es6
-    - generator
+tags:
     - 协程
 ---
 

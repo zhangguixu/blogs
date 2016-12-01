@@ -3,8 +3,9 @@ title: 关于undefined的小知识
 date: 2016-11-30 14:23:05
 categories:
     - javascript
-tags:
     - 数据类型
+tags:
+    - undefined
 ---
 
 在一些比较有年代的代码中，我们时常会看到

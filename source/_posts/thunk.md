@@ -3,8 +3,9 @@ title: 一步步打造thunkify
 date: 2016-11-28 11:08:04
 categories:
     - javascript
+    - library
 tags:
-    - thunk
+    - 异步编程
 ---
 
 通过学习thunk的含义，我们来实现一个简单的`thunkify`函数库，并且通过测试代码，来改善我们的代码，是我们能够对这个函数库有更加深刻的理解。
