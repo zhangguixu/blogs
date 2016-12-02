@@ -8,11 +8,11 @@ tags:
     - 算法
 ---
 
-两种方式实现数组去重。
+3种方式实现数组去重。
 
 <!-- more -->
 
-使用shift()获取并删除删除数组的第一个元素，判断这个元素是否还存在于数组中，如果存在则说明这个元素的是重复的；如果不存在，进行push()操作
+方式1：使用shift()获取并删除删除数组的第一个元素，判断这个元素是否还存在于数组中，如果存在则说明这个元素的是重复的；如果不存在，进行push()操作
 
 ```javascript
 function unique(a){
@@ -29,7 +29,7 @@ function unique(a){
 }
 ```
 
-建立一个哈希表，通过对象属性查询去除重复元素
+方式2：建立一个哈希表，通过对象属性查询去除重复元素
 
 ```javascript
 function unique(array){
@@ -46,5 +46,17 @@ function unique(array){
     }
 
     return result;
+}
+```
+
+方式3：思路和方式2类似，但是简洁很多
+
+```javascript
+function unique(arr) {
+    var hash = {};
+    return arr.filter(function (n) {
+        hash[n] = (hash[n] || 0);
+        return (++hash[n] <= 1);
+    });
 }
 ```
