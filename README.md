@@ -59,12 +59,47 @@ hexo deploy
 
 [腾讯分析](http://v2.ta.qq.com/analysis/index)
 
-评论
+评论和分享
 
 [多说](http://dev.duoshuo.com/)
 
-## 面试题页面模板
+本地搜索
+
+```shell
+npm install --save hexo-generator-searchdb
+```
+
+在站点配置文件`_config.yml`中添加
+
+```yml
+# local search
+search :
+  path : search.xml
+  field : post
+  format: html
+  limit : 10000
+```
+
+百度索引(暂时搞不定，算了)
+
+1. 在根目录下添加验证站点文件baidu_verify_xxx.html
+
+## 模板
+
+面试题模板
 
 ```shell
 hexo new interview 'post'
 ```
+
+linux模板
+
+```shell
+hexo new linux 'linux'
+```
+
+## 内部文章链接
+
+{% post_link filename title %}
+
+*注意，文件名不用加后缀。*
