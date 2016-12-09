@@ -98,6 +98,12 @@ linux模板
 hexo new linux 'linux'
 ```
 
+数据结构
+
+```shell
+hexo new sa 'sa'
+```
+
 ## 内部文章链接
 
 {% post_link filename title %}
